@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-image: url(./images/bg.jpg);
+}
+img {
+    display: block;
+}
+.box {
+    width: 1000px;   /* 設定區塊尺寸，除了0之外，須加上單位 */
+    margin: 0 auto;  /* 間距自動偵測(auto)須搭配寬度(width) */
+}
+.btn {
+    float: left;     /* 用浮動區塊(float)取代原先使用的display block */
+}
+
+
+
