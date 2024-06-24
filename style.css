@@ -29,6 +29,12 @@ img {
     padding: 15px;
 }
 
+.col span {
+color: brown;
+}
+hr {
+    border: #995d33 1px solid;
+}
 h1 {
     font-size: 2rem;
 }
