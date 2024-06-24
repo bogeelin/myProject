@@ -14,7 +14,10 @@ img {
     margin: 0 auto;
     /* 間距自動偵測(auto)須搭配寬度(width) */
 }
-
+iframe{
+    display: block;  /*表單需先轉成display block，才可用margin調整位置*/
+    margin: 0 auto;
+}
 .btn {
     float: left;
     /* 用浮動區塊(float)取代原先使用的display block */
@@ -23,7 +26,7 @@ img {
 .col {
     font-size: 14pt;
     float: left;
-    width: 445px; /*文字會自動延展，要另外設定*/
+    width: 446px; /*文字會自動延展，要另外設定*/
     border: dotted 2px rgb(118, 69, 6);
     margin: 10px;
     padding: 15px;
@@ -35,6 +38,10 @@ color: brown;
 hr {
     border: #995d33 1px solid;
 }
+address {
+    font-style: normal;
+}
+
 h1 {
     font-size: 2rem;
 }
